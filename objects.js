@@ -1,6 +1,7 @@
 var playlist = {} 
-playlist.Beyonce = '' 
-playlist['BTS'] = '' 
+playlist[artistName] = songTitle
+
+playlist 
   
  function updatePlaylist(playlist, artist, song) { 
   playlist[artist]= song 
