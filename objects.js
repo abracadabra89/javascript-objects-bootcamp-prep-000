@@ -2,10 +2,10 @@ let playlist = {
   artistName: 'songTitle'
   };
  function updatePlaylist(playlist, artistName, songTitle){
-   playlist = playlist.songTitle;
-   return playlist;
+   playlist.artistName = 'songTitle';
+    playlist;
  }
  function removeFromPlaylist(playlist, artistName){
-   playlist = delete playlist.artistName;
-   return playlist;
+   delete playlist.artistName;
+   playlist;
  }
