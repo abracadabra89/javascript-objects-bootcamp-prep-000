@@ -1,3 +1,7 @@
 let playlist = {
-  artistName: songTitle
+  artistName: 'songTitle'
 };
+ function updatePlaylist(playlist, artistName, songTitle){
+   playlist = playlist.songTitle.artistName;
+   return playlist;
+ }
