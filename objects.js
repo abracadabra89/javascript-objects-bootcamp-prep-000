@@ -3,10 +3,7 @@ playlist[artistName] = songTitle
 
 playlist 
 
-var playlist = {} 
-playlist.Beyonce = 'fear' 
-playlist['BTS'] = 'fire' 
-
+e
   
  function updatePlaylist(playlist, artist, song) { 
   playlist[artist]= song 
