@@ -1,6 +1,6 @@
-let playlist = {
-  artist: 'song'
-  };
+var playlist = {} 
+playlist.Beyonce = '' 
+playlist['BTS'] = '' 
   
  function updatePlaylist(playlist, artist, song) { 
   playlist[artist]= song 
